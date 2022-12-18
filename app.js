@@ -4,6 +4,13 @@ const halfMenu = document.querySelector(".half-menu")
 const orcamentos = document.querySelector("#orcamentos")
 const parcerias = document.querySelector("#parcerias")
 const submit = document.querySelector("#submit")
+const buttons = document.querySelectorAll(".button")
+
+buttons.forEach((e)=>{
+    e.addEventListener('click',()=>{
+        window.scrollTo(0, 0);
+    })
+})
 
 hamburguer.addEventListener("click",()=>{
     halfMenu.classList.toggle("hide")

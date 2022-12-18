@@ -18,6 +18,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
     color: var(--black);
+    scroll-behavior: smooth;
 }
 
 *:focus-visible {
@@ -32,6 +33,7 @@ ul{
 a {
     text-decoration: none;
     color: var(--preto);
+    white-space: nowrap;
 }
 
 input {
@@ -443,9 +445,11 @@ header > .container {
 #contato-buttons div {
     margin: 6   0px 0;
     border: 1px solid var(--green);
-    padding: 10px 20px;
+    padding: 20px 20px;
     border-radius: 5px;
 }
+
+
 
 footer {
     width: 100%;
