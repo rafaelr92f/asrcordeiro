@@ -53,35 +53,285 @@
 
     <!-- /NAV -->
 
-    <div class="space"></div>
+    <div class="space bg-white"></div>
 
     <!-- HEADER -->
 
 
-    <header class="flex justify-content-center">
+    <header class="flex justify-content-center bg-white">
         <div class="container flex align-items-center justify-content-space-between">
             <div class="header-1">
-                <p>ASR Cordeiro</p>
-                <h1 class="title">BPO Financeiro</h1>
-                <p>Administração de toda a rotina financeira da sua empresa com precisão, agilidade e feita para você.
+                <p class="text">ASR Cordeiro</p>
+                <h1 class="montserrat title c-green">BPO Financeiro</h1>
+                <p class="text">Administração de toda a rotina financeira da sua empresa com precisão, agilidade e feita
+                    para você.
                 </p>
             </div>
             <div class="header-2">
-                <form action="submit" class="border-r-15px"></form>
+                <div class="flex align-items-center">
+                    <button id="orcamentos" class="montserrat bg-green">Orçamentos</button>
+                    <button id="parcerias" class="montserrat bg-darkGreen">Parcerias</button>
+                </div>
+                <form action="submit" class="flex flex-column align-items-center justify-content-space-evenly">
+                    <input type="text" placeholder="Seu nome">
+                    <input type="email" placeholder="Seu e-mail">
+                    <input type="tel" placeholder="Seu telefone">
+                    <textarea name="" id="" cols="30" rows="8" placeholder="Digite sua mensagem"></textarea>
+                    <button id="submit" class="montserrat">Solicitar orçamento</button>
+                </form>
             </div>
         </div>
     </header>
 
 
     <!-- /HEADER -->
-
-    <div class="space"></div>
+    <div class="space bg-white"></div>
+    <div class="space bg-grey"></div>
 
     <!-- SECTION - SOBRE -->
 
+    <section id="quem-somos" class="bg-grey flex flex-column justify-content-center align-items-center">
+        <div class="container flex align-items-center gap">
+            <div>
+                <h2 class="montserrat title">Sobre a <span class="montserrat title c-green">ASR Cordeiro</span></h2><br>
+                <p class="text">Somos uma empresa especializada em trazer soluções para empresários e empreenderores no
+                    setor
+                    financeiro, administrativo e contábil.
+                    <br>
+                    <br>
+                    Com objetivo de ajudar as empresas em manter à organização nos processos e otimização nos
+                    resultados, gerando mais lucros , agilidade e redução de custos.
+                    Nossa missão é proporcionar as empresas economia de TEMPO e DINHEIRO tornando - a financeiramente
+                    mais saudável e eficiente.
+                    <br>
+                    <br>
+                    Tem problemas na sua empresa? entre em contato para solucionamos qualquer problema para você e ainda
+                    oferecemos toda consultoria e suporte necessário.
+                </p>
+            </div>
 
+            <div id="calc">
+                <img src="./assets/calculadora.png" alt="calculadora">
+            </div>
+        </div>
+
+    </section>
     <!-- /SECTION - SOBRE -->
 
+    <div class="space bg-grey"></div>
+    <div class="space bg-white"></div>
+
+    <!-- SECTION - O QUE É BPO -->
+
+
+    <section id="bpo" class="bg-white flex flex-column justify-content-center align-items-center">
+        <div class="container flex gap">
+            <div id="bpo-1">
+                <h2 class="text">O que é <br> <span class="montserrat title">BPO Financeiro</span></h2><br>
+                <p class="text">Nada mais é que a terceirização da gestão dos processos financeiros de uma empresa.
+                    <br>
+                    <br>
+                    Os serviços operacionais agora podem ser terceirizado por nossa equipe , tenha toda rotina
+                    financeira da sua empresa com precisão, agilidade e preparada para você.
+                </p>
+            </div>
+
+            <div id="bpo-2">
+                <h2 class="text">Benefícios de ter um <br> <span class="montserrat title">BPO Financeiro</span></h2><br>
+                <ul>
+                    <li class="text">Redução de despesas operacionais</li>
+                    <li class="text">Otimiza os processos</li>
+                    <li class="text">Economia de tempo </li>
+                    <li class="text">Controle financeiro em tempo real</li>
+                    <li class="text">Relatórios entregues no prazo</li>
+                    <li class="text">Menos preocupação para o gestor</li>
+                    <li class="text">Eficiência e produtividade</li>
+                </ul>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- SECTION - O QUE É BPO -->
+
+    <div class="space bg-white"></div>
+    <div class="space bg-grey"></div>
+
+    <!-- SECTION - importante -->
+    <section id="importante" class="bg-grey flex justify-content-center align-items-center">
+        <div class="container flex flex-column justify-content-center align-items-center text-align-center">
+            <h2 class="montserrat title c-green"><span class="text">Por que BPO Financeiro é</span><br> Importante?</h2>
+            <br>
+            <p class="text">Quando um empresário terceiriza essas atividades, sobra mais TEMPO para se dedicar as
+                estratégias do negócio, além da ECONOMIA FINANCEIRA que o BPO proporciona.</p>
+            <div id="importante-buttons" class="flex align-items-center justify-content-space-between">
+                <div>TEMPO</div>
+                <div>FOCO</div>
+                <div>ECONOMIA</div>
+                <div>DINHEIRO</div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION - importante -->
+
+    <div class="space bg-grey"></div>
+    <div class="space bg-grey"></div>
+
+    <!-- SECTION - Soluções -->
+
+    <section id="solucoes" class="bg-grey flex justify-content-center align-items-center">
+        <div class="container flex flex-column justify-content-center align-items-center text-align-center">
+
+            <h2 class="montserrat title">Soluções <span class="montserrat title c-green">BPO Financeiro</span></h2>
+
+            <div id="grid-1" class="flex justify-content-space-between align-items-center">
+
+                <div class="item">
+                    <img src="./assets/finance-icons-pack/Black_ver_1x/SVG/black_loan-16.svg" alt="icone">
+                    <p class="text">Gerenciamento de contas</p>
+                </div>
+
+                <div class="item">
+                    <img src="./assets/finance-icons-pack/Black_ver_1x/SVG/black_history-13.svg" alt="icone">
+                    <p class="text">Gerenciamento de contas</p>
+                </div>
+
+                <div class="item">
+                    <img src="./assets/finance-icons-pack/Black_ver_1x/SVG/black_calculator-34.svg" alt="icone">
+                    <p class="text">Gerenciamento de contas</p>
+                </div>
+
+                <div class="item">
+                    <img src="./assets/finance-icons-pack/Black_ver_1x/SVG/black_touch_id-49.svg" alt="icone">
+                    <p class="text">Gerenciamento de contas</p>
+                </div>
+
+                <div class="item">
+                    <img src="./assets/finance-icons-pack/Black_ver_1x/SVG/black_calendar-09.svg" alt="icone">
+                    <p class="text">Gerenciamento de contas</p>
+                </div>
+
+                <div class="item">
+                    <img src="./assets/finance-icons-pack/Black_ver_1x/SVG/black_piechart.svg" alt="icone">
+                    <p class="text">Gerenciamento de contas</p>
+                </div>
+            </div>
+            <button class="button text montserrat"> Contratar agora mesmo </button>
+        </div>
+    </section>
+
+    <!-- SECTION - Soluções -->
+
+    <div class="space bg-grey"></div>
+    <div class="space bg-white"></div>
+
+    <!-- SECTION - Outras Soluções -->
+    <section id="solucoes" class="bg-white flex justify-content-center align-items-center">
+        <div class="container flex flex-column justify-content-center align-items-center text-align-center">
+            <p class="text">BPO Financeiro</p>
+            <h2 class="montserrat title">Outras Soluções <span class="montserrat title c-green">BPO Financeiro</span>
+            </h2><br>
+            <p class="text">Tudo feito com processos totalmente SEGUROS e EFICIENTES para sua o seu negócio.</p>
+
+            <div id="grid-1" class="flex justify-content-space-between align-items-center">
+
+                <div class="item">
+                    <img src="./assets/finance-icons-pack/Colored_ver_2x/SVG/colored_trend_up-90.svg" alt="icone">
+                    <p class="text">Gerenciamento de contas</p>
+                </div>
+
+                <div class="item">
+                    <img src="./assets/finance-icons-pack/Colored_ver_2x/SVG/colored_portfolio-55.svg" alt="icone">
+                    <p class="text">Gerenciamento de contas</p>
+                </div>
+
+                <div class="item">
+                    <img src="./assets/finance-icons-pack/Colored_ver_2x/SVG/colored_bank-77.svg" alt="icone">
+                    <p class="text">Gerenciamento de contas</p>
+                </div>
+
+                <div class="item">
+                    <img src="./assets/finance-icons-pack/Colored_ver_2x/SVG/colored_security_2-70.svg" alt="icone">
+                    <p class="text">Gerenciamento de contas</p>
+                </div>
+
+                <div class="item">
+                    <img src="./assets/finance-icons-pack/Colored_ver_2x/SVG/colored_investor_3-73.svg" alt="icone">
+                    <p class="text">Gerenciamento de contas</p>
+                </div>
+
+                <div class="item">
+                    <img src="./assets/finance-icons-pack/Colored_ver_2x/SVG/colored_loan-63.svg" alt="icone">
+                    <p class="text">Gerenciamento de contas</p>
+                </div>
+            </div>
+            <button class="button text montserrat"> Contratar agora mesmo </button>
+        </div>
+    </section>
+    <!-- SECTION - Outras Soluções -->
+
+    <div class="space bg-white"></div>
+
+    <!--  <div class="space bg-green"></div>
+
+   
+
+    <section class="bg-green flex justify-content-center">
+        <div class="container flex flex-column text-align-center">
+            <h2 class="montserrat title c-white">Parceiros e práticas sustentáveis</h2>
+            <br><br>
+            <p class="text c-white">
+                Juntos com nossos parceiros visamos manter a organização nas empresas e diminuir o impacto ambiental, tornando os processos mais sustentáveis através da gestão de documentos na nuvem ,assim, diminuindo as impressões de documentos desnecessários e ao mesmo tempo ajudando o meio ambiente. 
+<br><br>
+Com isso mantemos a organização do ambiente e dos documentos,tornando eles mais seguros e acessíveis a qualquer momento e de qualquer lugar.
+            </p>
+        </div>
+    </section>
+
+  
+
+    <div class="space bg-green"></div> -->
+
+    <div class="space bg-grey"></div>
+
+    <!-- CONTATO -->
+    <section id="contato" class="bg-grey flex justify-content-center">
+        <div class="container flex flex-column align-items-center justify-content-center">
+            <h2 class="montserrat title">Entre em contato</h2><br>
+            <p class="text">Siga nossas redes sociais e acompanhe todas as novidades!</p>
+            <div id="contato-buttons" class="flex justify-content-space-between align-items-center">
+                
+                <div class="flex gap align-items-center justify-content-center">
+                    <img src="./assets/akar-icons_instagram-fill.png" alt="">
+                    <a href="#" class="">instagram.com/cordeirobpo</a>
+                </div>
+                <div class="flex gap align-items-center justify-content-center">
+                    <img src="./assets/fe_facebook.png" alt="">
+                    <a href="#" class="">facebook.com/cordeirobpo</a>
+                </div>
+                <div class="flex gap align-items-center justify-content-center">
+                    <img src="./assets/bxl_gmail.png" alt="">
+                    <a href="#" class="">instagram.com/cordeirobpo</a>
+                </div>
+                <div class="flex gap align-items-center justify-content-center">
+                    <img src="./assets/akar-icons_whatsapp-fill.png" alt="">
+                    <a href="#" class="">instagram.com/cordeirobpo</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- CONTATO -->
+
+    <div class="space bg-grey"></div>
+
+    <!-- FOOTER -->
+    <footer class="bg-green text-align-center">
+        <p class="montserrat c-white">ASR Cordeiro - Todos os direitos Reservados</p>
+    </footer>
+    <!-- FOOTER -->
 
     <script src="./app.js"></script>
 </body>
